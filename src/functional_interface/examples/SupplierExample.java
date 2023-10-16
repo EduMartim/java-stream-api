@@ -15,8 +15,8 @@ public class SupplierExample {
 
     // Usar o Supplier para obter uma lista com 5 saudações
     List<String> listaSaudacoes = Stream.generate(saudacao)
-        .limit(5)
-        .toList();
+            .limit(5)
+            .toList();
 
     // Imprimir as saudações geradas
     listaSaudacoes.forEach(System.out::println);
